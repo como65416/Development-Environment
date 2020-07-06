@@ -18,3 +18,7 @@ setup-vim:
 
 setup-editorconfig:
 	cp $(BASEDIR)/config/.editorconfig ~/.
+
+setup-gitignore:
+	cp $(BASEDIR)/config/.gitignore_global ~/.
+	git config --global core.excludesfile ~/.gitignore_global
