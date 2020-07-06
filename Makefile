@@ -8,3 +8,10 @@ setup-tmux:
 setup-bash:
 	cp $(BASEDIR)/config/.bash_profile ~/.
 	cp $(BASEDIR)/config/.bashrc ~/.
+	source ~/.bashrc
+
+setup-vim:
+	mkdir -p ~/.vim/colors
+	cp $(BASEDIR)/config/vim_color/monokai.vim ~/.vim/colors/.
+	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+	vim +PluginInstall +qall
