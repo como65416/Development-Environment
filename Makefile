@@ -1,3 +1,4 @@
+SHELL := /bin/bash
 BASEDIR := $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))
 
 setup-tmux:
