@@ -4,6 +4,7 @@ export PATH="$HOME/bin:$PATH"
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
     alias open="xdg-open"
     alias subline="subl"
+    export HOMEBREW_NO_AUTO_UPDATE=1
     export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 elif [[ "$OSTYPE" == "darwin"* ]]; then
     export PATH="/Applications/Firefox.app/Contents/MacOS:$PATH"
