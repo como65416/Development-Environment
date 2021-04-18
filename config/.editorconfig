@@ -24,5 +24,13 @@ indent_size = 2
 indent_style = space
 indent_size = 2
 
+[*.mjs]
+indent_style = space
+indent_size = 2
+
+[*.vue]
+indent_style = space
+indent_size = 2
+
 [{Makefile,**.mk}]
 indent_style = tab
