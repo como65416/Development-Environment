@@ -1,13 +1,12 @@
 {
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.statusBar.feedback.visible": false,
     "files.trimTrailingWhitespace": true,
     "editor.trimAutoWhitespace": true,
     "workbench.activityBar.visible": false,
     "terminal.integrated.allowChords": false,
     "terminal.integrated.drawBoldTextInBrightColors": false,
     "terminal.integrated.experimentalLinkProvider": false,
-    "terminal.integrated.rendererType": "auto",
+    "terminal.integrated.inheritEnv": true,
     "[go]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
@@ -22,18 +21,33 @@
             "source.organizeImports": true,
         },
     },
+    "[php]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+    },
     "gopls": {
         // Add parameter placeholders when completing a function.
-       "usePlaceholders": true,
-
-       // If true, enable additional analyses with staticcheck.
-       // Warning: This will significantly increase memory usage.
-       "staticcheck": false,
+        "usePlaceholders": true,
+        // If true, enable additional analyses with staticcheck.
+        // Warning: This will significantly increase memory usage.
+        "staticcheck": false,
     },
     "go.useLanguageServer": true,
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
-    "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.donotVerifyTags": true
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.external.linuxExec": "bash",
+    "prettier.vueIndentScriptAndStyle": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/Users/mypc/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
+    "terminal.external.osxExec": "bash",
+    "git-graph.integratedTerminalShell": "/bin/bash"
 }
