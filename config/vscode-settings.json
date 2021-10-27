@@ -25,6 +25,17 @@
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "kokororin.vscode-phpfmt"
     },
+    "phpfmt.passes": [
+        "StripNewlineAfterClassOpen",
+        "StripNewlineAfterCurlyOpen",
+        "StripNewlineWithinClassBody",
+        "NewLineBeforeReturn",
+        "AlignDoubleSlashComments",
+        "AutoSemicolon",
+        "DoubleToSingleQuote",
+        "ShortArray",
+        "SpaceBetweenMethods"
+    ],
     "gopls": {
         // Add parameter placeholders when completing a function.
         "usePlaceholders": true,
