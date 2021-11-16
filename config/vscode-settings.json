@@ -44,7 +44,8 @@
         "staticcheck": false,
     },
     "go.useLanguageServer": true,
-    "editor.codeActionsOnSave": {
+    "editor.codeActionsOnSave": {,
+        "source.fixAll.stylelint": true,
         "source.fixAll.eslint": true
     },
     "editor.suggestSelection": "first",
