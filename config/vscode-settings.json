@@ -26,6 +26,10 @@
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "kokororin.vscode-phpfmt"
     },
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "phpfmt.passes": [
         "StripNewlineAfterClassOpen",
         "StripNewlineAfterCurlyOpen",
