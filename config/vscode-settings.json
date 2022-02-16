@@ -31,9 +31,9 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "phpfmt.passes": [
-        "StripNewlineAfterClassOpen",
-        "StripNewlineAfterCurlyOpen",
-        "StripNewlineWithinClassBody",
+        // "StripNewlineAfterClassOpen",
+        // "StripNewlineAfterCurlyOpen",
+        // "StripNewlineWithinClassBody",
         "NewLineBeforeReturn",
         "AlignDoubleSlashComments",
         "AutoSemicolon",
