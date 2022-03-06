@@ -9,6 +9,8 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
     alias subline="subl"
     export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 elif [[ "$OSTYPE" == "darwin"* ]]; then
+    export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
+    alias sublime="subl"
     export PATH="/Applications/Firefox.app/Contents/MacOS:$PATH"
     export PATH="$HOME/.composer/vendor/bin:$PATH"https://github.com/como65416/Development-Environment/blob/master/config/.bashrc
 fi
