@@ -16,10 +16,6 @@
         "**/dist": true,
         "**/build": true,
     },
-    "editor.codeActionsOnSave": {
-        "source.fixAll.stylelint": true,
-        "source.fixAll.eslint": true
-    },
     "cSpell.ignoreWords": [
         "hahow",
         "ecpay",
