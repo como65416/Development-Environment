@@ -5,9 +5,42 @@
     "workbench.activityBar.visible": false,
     "terminal.integrated.allowChords": false,
     "terminal.integrated.drawBoldTextInBrightColors": false,
-    "terminal.integrated.experimentalLinkProvider": false,
-    "terminal.integrated.inheritEnv": true,
     "terminal.integrated.scrollback": 1600,
+    "terminal.integrated.inheritEnv": true,
+    // 在使用搜尋功能時，將這些文件夾/文件排除在外
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/logs": true,
+        "**/vendor": true,
+        "**/dist": true,
+        "**/build": true,
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.stylelint": true,
+        "source.fixAll.eslint": true
+    },
+    "cSpell.ignoreWords": [
+        "hahow",
+        "ecpay",
+        "mixpanel",
+        "pada",
+        "maxlength",
+        "nestjs",
+        "datas",
+        "commentable",
+        "unretrievable",
+        "allpay",
+        "momo",
+        "quizzable",
+        "momenttz",
+        "opencc",
+        "algoliasearch",
+        "randomstring",
+        "mailchimp",
+        "omni"
+    ],
+    "editor.suggestSelection": "first",
     "[go]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
@@ -45,29 +78,19 @@
         "staticcheck": false,
     },
     "go.useLanguageServer": true,
-    "editor.codeActionsOnSave": {,
+    "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true,
         "source.fixAll.stylelint": true,
         "source.fixAll": true,
         "source.organizeImports": true,
     },
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "terminal.external.linuxExec": "bash",
-    "prettier.vueIndentScriptAndStyle": true,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "files.exclude": {
-        "**/.classpath": true,
-        "**/.project": true,
-        "**/.settings": true,
-        "**/.factorypath": true
-    },
-    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"/Users/mypc/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
-    "terminal.external.osxExec": "bash",
-    "git-graph.integratedTerminalShell": "/bin/bash",
+    "redhat.telemetry.enabled": true,
     "relativePath.ignore": [
-        "**/node_modules/**",
-        "**/coverage/**",
-        "**/.vscode/**"
-    ]
+		"**/node_modules/**",
+		"**/coverage/**",
+		"**/.vscode/**",
+		"**/migrations/**",
+        "**/vendor/**"
+	],
+    "relativePath.searchCountLimit": 3000,
 }
