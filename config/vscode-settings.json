@@ -86,11 +86,11 @@
     },
     "redhat.telemetry.enabled": true,
     "relativePath.ignore": [
-		"**/node_modules/**",
-		"**/coverage/**",
-		"**/.vscode/**",
-		"**/migrations/**",
+        "**/node_modules/**",
+        "**/coverage/**",
+        "**/.vscode/**",
+        "**/migrations/**",
         "**/vendor/**"
-	],
+    ],
     "relativePath.searchCountLimit": 3000,
 }
