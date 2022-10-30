@@ -12,7 +12,9 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
     alias sublime="subl"
     export PATH="/Applications/Firefox.app/Contents/MacOS:$PATH"
-    export PATH="$HOME/.composer/vendor/bin:$PATH"https://github.com/como65416/Development-Environment/blob/master/config/.bashrc
+    export PATH="$HOME/.composer/vendor/bin:$PATH"
+    alias code-insiders="/Applications/Visual\ Studio\ Code\ -\ Insiders.app/Contents/Resources/app/bin/code"
+    alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 fi
 
 ## NVM
