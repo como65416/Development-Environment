@@ -31,5 +31,5 @@ setup-all-terminal-base: setup-tmux setup-bash setup-vim setup-editorconfig setu
 
 setup-zsh:
 	sudo apt-get install zsh
-	cp $(BASEDIR)/config/.zshrc ~/.
 	sh -c "$$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+	cp $(BASEDIR)/config/.zshrc ~/.
