@@ -26,3 +26,10 @@ setup-gitignore:
 	git config --global core.excludesfile ~/.gitignore_global
 
 setup-all-terminal-base: setup-tmux setup-bash setup-vim setup-editorconfig setup-gitignore
+
+#### standalone
+
+setup-zsh:
+	sudo apt-get install zsh
+	cp $(BASEDIR)/config/.zshrc ~/.
+	sh -c "$$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
