@@ -8,6 +8,10 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
     alias open="xdg-open"
     alias subline="subl"
     export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+    if [ $XDG_SESSION_TYPE == "wayland" ]; then
+        export MOZ_DBUS_REMOTE=1
+        export MOZ_ENABLE_WAYLAND=1
+    fi
 elif [[ "$OSTYPE" == "darwin"* ]]; then
     export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin:$PATH"
     alias sublime="subl"
