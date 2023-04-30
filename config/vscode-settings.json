@@ -61,7 +61,7 @@
         // "StripNewlineWithinClassBody",
         "NewLineBeforeReturn",
         // "AlignDoubleSlashComments",
-        // "OnlyOrderUseClauses",
+        "OnlyOrderUseClauses",
         "AutoSemicolon",
         "DoubleToSingleQuote",
         "ShortArray",
@@ -79,7 +79,6 @@
         "source.fixAll.eslint": true,
         "source.fixAll.stylelint": true,
         "source.fixAll": true,
-        "source.organizeImports": true,
     },
     "redhat.telemetry.enabled": true,
     "relativePath.ignore": [
@@ -89,6 +88,11 @@
         "**/migrations/**",
         "**/vendor/**"
     ],
+    "relativePath.searchCountLimit": 3000,
+    "vite.autoStart": false,
+    "update.mode": "none",
+    "extensions.autoUpdate": false,
+    "php.validate.executablePath": "/usr/local/bin/php",
     "intelephense.stubs": [
         "apache",
         "bcmath",
@@ -164,5 +168,7 @@
         "mongo",
         "mongodb"
     ],
+    "intelephense.diagnostics.undefinedProperties": false,
+    "workbench.activityBar.visible": false,
     "relativePath.searchCountLimit": 3000,
 }
