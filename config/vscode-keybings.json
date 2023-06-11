@@ -7,18 +7,8 @@
         "when": "canNavigateBack"
     },
     {
-        "key": "ctrl+alt+-",
-        "command": "-workbench.action.navigateBack",
-        "when": "canNavigateBack"
-    },
-    {
         "key": "ctrl+alt+]",
         "command": "workbench.action.navigateForward",
-        "when": "canNavigateForward"
-    },
-    {
-        "key": "ctrl+shift+-",
-        "command": "-workbench.action.navigateForward",
         "when": "canNavigateForward"
     },
     // Ubuntu Version
@@ -28,18 +18,8 @@
         "when": "canNavigateBack"
     },
     {
-        "key": "ctrl+-",
-        "command": "-workbench.action.navigateBack",
-        "when": "canNavigateBack"
-    },
-    {
         "key": "ctrl+cmd+]",
         "command": "workbench.action.navigateForward",
-        "when": "canNavigateForward"
-    },
-    {
-        "key": "ctrl+shift+-",
-        "command": "-workbench.action.navigateForward",
         "when": "canNavigateForward"
     }
 ]
