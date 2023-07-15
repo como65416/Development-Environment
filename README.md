@@ -9,5 +9,5 @@ make setup-all-terminal-base
 Set up zsh
 
 ```sh
-make setup-zhs
+make setup-zsh
 ```
