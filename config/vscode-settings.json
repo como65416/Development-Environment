@@ -57,6 +57,7 @@
     },
     "[python]": {
         "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.python"
     },
     "phpfmt.passes": [
         // "StripNewlineAfterClassOpen",
