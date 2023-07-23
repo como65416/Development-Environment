@@ -55,6 +55,9 @@
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "kokororin.vscode-phpfmt"
     },
+    "[python]": {
+        "editor.formatOnSave": true,
+    },
     "phpfmt.passes": [
         // "StripNewlineAfterClassOpen",
         // "StripNewlineAfterCurlyOpen",
