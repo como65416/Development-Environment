@@ -71,6 +71,10 @@
         "ShortArray",
         "SpaceBetweenMethods"
     ],
+    "phpfmt.exclude": [
+        // bug: https://github.com/kokororin/vscode-phpfmt/issues/42
+        "PSR2ModifierVisibilityStaticOrder",
+    ],
     "gopls": {
         // Add parameter placeholders when completing a function.
         "usePlaceholders": true,
