@@ -2,6 +2,7 @@
     "workbench.startupEditor": "newUntitledFile",
     "files.trimTrailingWhitespace": true,
     "editor.trimAutoWhitespace": true,
+    "editor.scrollBeyondLastLine": false,
     "workbench.activityBar.visible": false,
     "terminal.integrated.allowChords": false,
     "terminal.integrated.drawBoldTextInBrightColors": false,
