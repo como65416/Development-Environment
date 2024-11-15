@@ -25,7 +25,10 @@ setup-gitignore:
 	cp $(BASEDIR)/config/.gitignore_global ~/.
 	git config --global core.excludesfile ~/.gitignore_global
 
-setup-all-terminal-base: setup-tmux setup-bash setup-vim setup-editorconfig setup-gitignore
+setup-git:
+	git config --global core.filemode false
+
+setup-all-terminal-base: setup-tmux setup-bash setup-vim setup-editorconfig setup-gitignore setup-git
 
 #### standalone
 
